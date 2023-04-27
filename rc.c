@@ -6,5 +6,5 @@ char buf[512];
 
 int main(int argc, char *argv[])
 {
-    printf(1, "reads count: %d", mysyscall);
+    printf(1, "reads count: %d", mysyscall());
 }
