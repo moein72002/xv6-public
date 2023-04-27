@@ -42,7 +42,7 @@ sys_getpid(void)
   return myproc()->pid;
 }
 
-int sys_my_syscall(void)
+int sys_mysyscall(void)
 {
   // Your system call implementation here
   return 0;

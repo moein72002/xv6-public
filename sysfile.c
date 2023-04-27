@@ -68,7 +68,7 @@ sys_dup(void)
 
 int reads_number = 0;
 
-int sys_my_syscall(void)
+int sys_mysyscall(void)
 {
   reads_number += 1;
 }
@@ -76,7 +76,7 @@ int sys_my_syscall(void)
 int
 sys_read(void)
 {
-  sys_my_syscall();
+  sys_mysyscall();
   struct file *f;
   int n;
   char *p;
