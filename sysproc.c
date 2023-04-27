@@ -42,12 +42,6 @@ sys_getpid(void)
   return myproc()->pid;
 }
 
-int sys_mysyscall(void)
-{
-  // Your system call implementation here
-  return 0;
-}
-
 int
 sys_sbrk(void)
 {
