@@ -68,7 +68,8 @@ sys_dup(void)
 
 int reads_number = 0;
 
-int sys_mysyscall(void)
+int 
+sys_mysyscall(void)
 {
   return reads_number;
 }

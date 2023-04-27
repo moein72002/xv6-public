@@ -4,5 +4,5 @@
 
 int main(int argc, char *argv[])
 {
-    printf("reads count: %d", mysyscall());
+    printf(1, "reads count: %d", mysyscall());
 }
