@@ -70,13 +70,13 @@ int reads_number = 0;
 
 int sys_mysyscall(void)
 {
-  reads_number += 1;
+  return reads_number;
 }
 
 int
 sys_read(void)
 {
-  sys_mysyscall();
+  reads_number += 1;
   struct file *f;
   int n;
   char *p;
